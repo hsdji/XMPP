@@ -33,6 +33,7 @@
 		CE79FC431F53B17300043D54 /* userRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE79FC411F53B17300043D54 /* userRegistViewController.m */; };
 		CE79FC441F53B17300043D54 /* userRegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE79FC421F53B17300043D54 /* userRegistViewController.xib */; };
 		CE79FC461F53C11100043D54 /* userLongInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE79FC451F53C11100043D54 /* userLongInViewController.xib */; };
+		CEA962751F55028800AA0878 /* xmpp1.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEA962741F55028800AA0878 /* xmpp1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		CE79FC411F53B17300043D54 /* userRegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userRegistViewController.m; sourceTree = "<group>"; };
 		CE79FC421F53B17300043D54 /* userRegistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = userRegistViewController.xib; sourceTree = "<group>"; };
 		CE79FC451F53C11100043D54 /* userLongInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = userLongInViewController.xib; sourceTree = "<group>"; };
+		CEA962741F55028800AA0878 /* xmpp1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xmpp1.gif; sourceTree = "<group>"; };
 		CF8E8D271F50A60E8FFCCC9A /* Pods_XMPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -152,6 +154,7 @@
 		CE04A9981F4E7BFD00B30F07 = {
 			isa = PBXGroup;
 			children = (
+				CEA962741F55028800AA0878 /* xmpp1.gif */,
 				CE04A9A31F4E7BFD00B30F07 /* XMPP */,
 				CE04A9BD1F4E7BFD00B30F07 /* XMPPTests */,
 				CE04A9C81F4E7BFD00B30F07 /* XMPPUITests */,
@@ -479,6 +482,7 @@
 				CE4B04411F5009AC00650295 /* xmppChat-master in Resources */,
 				CE04A9B41F4E7BFD00B30F07 /* LaunchScreen.storyboard in Resources */,
 				CE04A9B11F4E7BFD00B30F07 /* Assets.xcassets in Resources */,
+				CEA962751F55028800AA0878 /* xmpp1.gif in Resources */,
 				CE79FC441F53B17300043D54 /* userRegistViewController.xib in Resources */,
 				CE79FC461F53C11100043D54 /* userLongInViewController.xib in Resources */,
 				CE04A9AF1F4E7BFD00B30F07 /* Main.storyboard in Resources */,
