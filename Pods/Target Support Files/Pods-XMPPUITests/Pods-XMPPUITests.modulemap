@@ -1,0 +1,6 @@
+framework module Pods_XMPPUITests {
+  umbrella header "Pods-XMPPUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

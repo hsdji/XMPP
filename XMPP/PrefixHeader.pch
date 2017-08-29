@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  XMPP
+//
+//  Created by user on 17/8/24.
+//  Copyright © 2017年 user. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "define.h"
+#import "ReactiveObjc.h"
+#import "XMPP.h"
+#import "SoundPlayer.h"
+#import "XMPPMessageArchiving.h"
+#import "XMPPMessageArchivingCoreDataStorage.h"
+#import "AppDelegate.h"
+#import "friendsListTableViewController.h"
+#import "XMPPRosterMemoryStorage.h"
+#import "XMPPRoster.h"
+#import "JKXMPPTool.h"
+#import "XMPPRosterCoreDataStorage.h"
+#import "cus.h"
+#import "xmppManage.h"
+#import "ViewController.h"
+#import "ReactiveObjc.h"
+#import "userRegistViewController.h"
+#import "userLongInViewController.h"
+#import "friendsListTableViewController.h"
+#import "SoundPlayer.h"
+#endif /* PrefixHeader_pch */

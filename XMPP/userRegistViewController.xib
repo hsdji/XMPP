@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="userRegistViewController">
+            <connections>
+                <outlet property="passWord" destination="ygG-g8-PEF" id="6kU-nN-DgI"/>
+                <outlet property="registBtn" destination="QBW-dv-UwP" id="p7l-z9-hJP"/>
+                <outlet property="userName" destination="AW7-cU-30T" id="Y6j-8i-VR3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9BV-r7-3Wv">
+                    <rect key="frame" x="25" y="94" width="325" height="123"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="123" id="yOR-IE-jBZ"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="XMPP">
+                            <attributes>
+                                <color key="NSColor" red="0.77431691753926701" green="0.7725272430954685" blue="0.57369760556982263" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="36" name=".AppleSystemUIFont"/>
+                                <font key="NSOriginalFont" size="36" name=".AppleSystemUIFont"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="注册">
+                            <attributes>
+                                <color key="NSColor" red="0.77431691753926701" green="0.7725272430954685" blue="0.57369760556982263" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="36" name=".PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="36" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="36" name="HelveticaNeue"/>
+                                <font key="NSOriginalFont" size="36" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="®️">
+                            <attributes>
+                                <color key="NSColor" red="0.26166030548433616" green="0.85540053303225305" blue="0.92580170157068065" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="AppleColorEmoji"/>
+                                <font key="NSOriginalFont" size="12" name="AppleColorEmoji"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="单小飞">
+                            <attributes>
+                                <color key="NSColor" red="0.26166030548433616" green="0.85540053303225305" blue="0.92580170157068065" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="12" name="PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Enter Your UserName" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AW7-cU-30T">
+                    <rect key="frame" x="33" y="247" width="308" height="60"/>
+                    <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="vPz-5H-L1a"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Enter Your  Psssword" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ygG-g8-PEF">
+                    <rect key="frame" x="33" y="341" width="308" height="60"/>
+                    <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="fp9-Ar-CFC"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QBW-dv-UwP">
+                    <rect key="frame" x="33" y="494" width="308" height="68"/>
+                    <color key="backgroundColor" red="0.0" green="0.77431691753926701" blue="0.67943238883041424" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="68" id="k6W-dS-k0p"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                    <state key="normal" title="注     册">
+                        <color key="titleColor" red="0.77431691749999998" green="0.77252724309999998" blue="0.57369760560000005" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.088546209037303925" green="0.75202107429504395" blue="0.65100795030593872" alpha="0.3458000886524823" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="tintColor" red="0.77431691749999998" green="0.77252724309999998" blue="0.57369760560000005" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="QBW-dv-UwP" firstAttribute="top" secondItem="ygG-g8-PEF" secondAttribute="bottom" constant="93" id="1fs-Ze-F1q"/>
+                <constraint firstItem="AW7-cU-30T" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="33" id="2N6-4H-ZBj"/>
+                <constraint firstAttribute="trailing" secondItem="QBW-dv-UwP" secondAttribute="trailing" constant="34" id="E5A-fz-BaQ"/>
+                <constraint firstItem="AW7-cU-30T" firstAttribute="top" secondItem="9BV-r7-3Wv" secondAttribute="bottom" constant="30" id="FuX-l0-4oa"/>
+                <constraint firstAttribute="trailing" secondItem="9BV-r7-3Wv" secondAttribute="trailing" constant="25" id="Hvy-Ak-0qZ"/>
+                <constraint firstAttribute="trailing" secondItem="ygG-g8-PEF" secondAttribute="trailing" constant="34" id="IBC-fE-QQU"/>
+                <constraint firstItem="9BV-r7-3Wv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="Qfl-jf-IKh"/>
+                <constraint firstItem="9BV-r7-3Wv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="94" id="bcD-mb-XUo"/>
+                <constraint firstItem="ygG-g8-PEF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="33" id="o1w-GU-1AV"/>
+                <constraint firstItem="9BV-r7-3Wv" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="v8W-Ov-zLh"/>
+                <constraint firstItem="ygG-g8-PEF" firstAttribute="top" secondItem="AW7-cU-30T" secondAttribute="bottom" constant="34" id="wco-hd-OZC"/>
+                <constraint firstAttribute="trailing" secondItem="AW7-cU-30T" secondAttribute="trailing" constant="34" id="x0m-rh-nXC"/>
+                <constraint firstItem="QBW-dv-UwP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="33" id="yES-FW-ySb"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="479.5" y="367.5"/>
+        </view>
+    </objects>
+</document>
